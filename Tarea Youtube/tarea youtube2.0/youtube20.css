@@ -1,0 +1,141 @@
+*{
+    padding: 0px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.flex{
+    display: flex;
+}
+.grid{
+    display: grid;
+}
+.inicio{
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 9px;
+    padding-right: 50px;
+}
+
+.botones{
+    display: flex;
+    margin-left: 10px;
+    margin-right: 10px;
+    border: 0;
+    border-radius: 50%;
+    background-color: transparent;
+}
+.botones:hover{
+    background-color: rgba(174, 217, 255, 0.774);
+    cursor: pointer;
+}
+
+.youtube{
+    display: flex;
+    height: 25px;
+    width: 90px;
+    border: 0;
+    background-color: transparent;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.barra-texto{
+    background-color: #ffffff;
+    padding-top: 1.5px;
+    padding-bottom: 3px;
+    padding-left: 25px;;
+    width: 30vw;
+    height: 24px;
+    padding-right: 35px;
+    border-top-width:1 ;
+    border-right-width:0 ;
+    border-bottom-width:1 ;
+    border-left-width: 1;
+    border-radius: 50px 0 0 50px;
+    border-color: #7b8dca75;
+    border-style: solid;
+}
+
+.boton-buscador{
+    background-color: #7b8dca1a;
+    padding: 0px 17px 0 15px;
+    border-radius: 0 50px 50px 0;
+    border-color: #7b8dca75;
+    border-style: solid;
+    color: #000000;
+    border-bottom-width: 2px;
+    width: 60px;
+    height: 30.8px;
+}
+.boton-buscador:hover{
+    background-color: #7b8dca5b;
+    cursor: pointer;
+}
+
+.casillas{
+    color: black;
+    margin: 5px;
+    padding: 10px;
+    padding-right: 20px;
+    padding-left: 20px;
+    border-radius: 15px;
+    border: 0;
+    background-color: #c8d4fa75;
+}
+.casillas:hover{
+    background-color: #7b8dca75;
+    cursor: pointer;
+}
+
+div.videos{
+    display: flex;
+    /* margin-left: 250px; */
+    /* margin-right: 60px; */
+    justify-content: space-between;
+}
+
+.texto-video-1{
+    margin: 0;
+}
+
+.texto-video-2{
+    align-items: center;
+    margin: 0;
+}
+
+img.logo-canales{
+    width: 25px;
+    height: 25px;
+}
+
+.botones-izq{
+    color: black;
+    height: 40px;
+    padding-top: 8px;
+    padding-right: 20px;
+    padding-left: 20px;
+    border-radius: 15px;
+    border: 0;
+    background-color: transparent;
+}
+.botones-izq:hover{
+    background-color: #7b8dca75;
+    cursor: pointer;
+}
+.iconos-izq{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    height: 24px;
+}
+
+.borde-caja{
+    border-bottom: 2px;
+    border-bottom-color: #b4bdbc;
+    border-bottom-style: solid;
+    margin-right: 10px;
+}
+
+div.flex.iconos-izq h4{
+    margin-left: 25px;
+} 
